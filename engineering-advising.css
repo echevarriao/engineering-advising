@@ -1,0 +1,415 @@
+/* CSS for advising.engineering.uconn.edu */
+
+/* footer social icons */
+#footers #mega-footer .widget.widget_simple-social-icons a {
+background:transparent!important;
+background-color:transparent!important;
+border:3px #fff solid!important;
+color:#fff!important
+}
+
+#footers #mega-footer .widget.widget_simple-social-icons a:hover {
+border:3px #1e1e9c solid!important;
+color:#f1f1f1!important
+}
+
+/* white buttons on front page */
+body.home #page #content .widget .btn.btn-default:active,body.home #page #content .widget .btn.btn-default:hover,body.home #page #content .widget .btn.btn-default:focus {
+background-color:transparent!important;
+color:#fff!important
+}
+
+/*  */
+a.button-engr {
+background-color:#d43900;
+text-transform:uppercase;
+text-decoration:none;
+font-weight:700;
+color:#fff!important;
+border:1px solid #ff5733
+}
+
+a.button-engr:hover {
+background-color:#fff;
+border:1px solid #ff5733;
+color:#ff5733!important;
+transition:.35s
+}
+
+.medium {
+padding:1.5rem
+}
+
+.radius {
+border-radius:25px
+}
+
+/* setting for rounded corner images  by OE */
+div.specializations-boxes,div.specializations-boxes {
+border:0!important
+}
+
+div.specializations-boxes div.so-panel {
+margin-bottom:0!important
+}
+
+div.specializations-boxes {
+border:1px solid #000e2f
+}
+
+/* set the opacity on hover */
+div.specializations-boxes:hover {
+opacity:.75;
+border:1px solid #fff
+}
+
+div.specializations-boxes img {
+transform:scale(1.1);
+transition:/* Animation */
+.2s
+}
+
+/* lets animate the images and make them bigger on hover */
+div.specializations-boxes img:hover {
+-ms-transform:scale(1.2);
+-moz-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+-o-transform:scale(1.2);
+transform:/* Animation */
+scale(1.2)
+}
+
+div.specializations-boxes div p {
+margin-bottom:0!important
+}
+
+div.specializations-boxes div p a {
+display:block;
+padding:15px;
+background-color:#000e2f;
+text-decoration:none;
+color:#fff!important
+}
+
+/* remove the glypicons */
+div.specializations-boxes div p a span {
+}
+
+.rounded-image-corners {
+border-radius:15px
+}
+
+a.white-links {
+color:#fff!important
+}
+
+a.white-links:hover {
+color:#c1c1c1!important
+}
+
+.btn-white {
+text-decoration:none;
+text-align:center;
+font-size:16px;
+padding:10px;
+display:block!important;
+background-color:#fff
+}
+
+.btn-white:hover {
+background-color:#c1c1c1
+}
+
+/* sidebar */
+#page-sidebar ul.menu,#page-sidebar ul.menu li ul.sub-menu {
+list-style:none;
+margin:5px;
+padding:0
+}
+
+#page-sidebar ul.menu li,#page-sidebar ul.menu li ul.sub-menu li {
+display:inline
+}
+
+#page-sidebar ul.menu li a {
+display:block!important
+}
+
+#page-sidebar ul.menu > li:not(.current-page-ancestor) {
+display:none
+}
+
+#page-sidebar ul.menu li.menu-item-has-children {
+background-color:#f1f1f1
+}
+
+#page-sidebar .widget {
+border-radius:0;
+border:0;
+background-color:transparent
+}
+
+/* resources and calendar */
+div#resourceColumnID > div > ul#menu-resources > li {
+text-align:center;
+background-color:#000e2f;
+padding:5px;
+font-size:2rem;
+font-weight:400;
+border-radius:5px
+}
+
+div#resourceColumnID > h3.widget-title {
+font-size:4.5rem!important
+}
+
+div.advisors-boxes-content {
+padding:10px
+}
+
+div#resourceColumnID > div > ul#menu-resources > li:hover {
+background-color:#fff;
+transition:.25s
+}
+
+div#resourceColumnID > div > ul#menu-resources > li > a {
+color:#fff!important
+}
+
+div#resourceColumnID > div > ul#menu-resources > li > a:hover {
+color:#000e2f!important
+}
+
+#regional-campus-row {
+margin-top:400px
+}
+
+div.bigger-letters > div.textwidget > p {
+font-size:16pt
+}
+
+.btn-teal {
+background:#41cdd3;
+background-image:-webkit-linear-gradient(90deg,transparent 50%,#000e2f 50%);
+background-image:linear-gradient(90deg,transparent 50%,#000e2f 50%);
+border:3px solid #41cdd3;
+border-radius:0!important;
+background-size:229%;
+background-repeat:no-repeat;
+background-position:99%;
+-webkit-transition:all .85s cubic-bezier(0.68,-0.55,0.265,1.55);
+color:#fff;
+font-size:14pt!important;
+font-weight:700!important;
+transition:all .85s cubic-bezier(0.68,-0.55,0.265,1.55)
+}
+
+#page #content .widget .btn.btn-teal:active,#page #content .widget .btn.btn-teal:hover,#page #content .widget .btn.btn-teal:focus {
+background-position:0;
+color:#fff;
+background-color:#000e2f;
+background-image:-webkit-linear-gradient(90deg,transparent 50%,#000e2f 50%);
+background-image:linear-gradient(90deg,transparent 50%,#000e2f 50%)
+}
+
+/* white-text white-urls */
+div.white-text,div.white-urls a {
+font-size:14pt;
+color:#fff
+}
+
+/* footer */
+div#footers {
+background-color:#000e2f
+}
+
+div#footers a {
+color:#fff!important
+}
+
+ul#uc-footer-links > li {
+color:#fff
+}
+
+/* footer navigation */
+div#footer-navigation > div > ul {
+list-style:none
+}
+
+div#footer-navigation > div > ul > li {
+display:inline-block
+}
+
+div#footer-navigation > div > ul > li > a {
+display:inline-block
+}
+
+div#footer-navigation > ul > li.menu-item-has-children > ul.sub-menu {
+display:none
+}
+
+/* front page widget reset and settings */
+.home #content .panel-grid .widget {
+margin:0
+}
+
+div.right-side-buttons a.btn.btn-primary,div.left-side-buttons a.btn.btn-primary {
+font-weight:700!important;
+font-size:1.5em;
+border-radius:0!important;
+display:block!important
+}
+
+a.btn.btn-primary {
+border-radius:0!important;
+font-size:24px
+}
+
+div.right-side-with-image img {
+width:90%
+}
+
+/*
+div.advisors > span.advisors-rows > i.fa {
+color:#fff;
+height:100px;
+width:100px;
+background-color:#000e2f;
+border-radius:50%
+} */
+div.advisors-boxes div {
+width:100%
+}
+
+div.advisors-boxes div img {
+position:relative;
+left:35%;
+bottom:-15px;
+z-index:100;
+border-radius:50%
+}
+
+div.advisors-boxes div h3.widget-title {
+text-align:center
+}
+
+div.advisors-boxes-content h3 {
+color:#fff;
+padding-bottom:0;
+background-color:#000e2f
+}
+
+div.advisors-boxes-content {
+position:relative;
+z-index:99;
+color:#fff;
+padding-top:50px;
+background-color:#000e2f
+}
+
+div.advisors-boxes-content * {
+color:#fff!important
+}
+
+/* NEW BUTTONS FROM UCOMM */
+h2 {
+font-size:26px
+}
+
+h3 {
+font-size:23px
+}
+
+p a.button-royalblue {
+background-color:#1e1e9c;
+text-transform:uppercase;
+text-decoration:none;
+font-weight:400;
+letter-spacing:1px;
+color:#fff!important;
+border:none;
+border-radius:0;
+padding:15px 20px
+}
+
+p a.button-royalblue:hover {
+background-color:#fff;
+color:#000E2F!important;
+transition:.35s
+}
+
+p a.button-whitebutton {
+background-color:#fff;
+text-transform:uppercase;
+text-decoration:none;
+font-weight:400;
+letter-spacing:1px;
+color:#000E2F!important;
+border:none;
+border-radius:0;
+display:inline-block;
+padding:15px 20px
+}
+
+p a.button-whitebutton:hover {
+background-color:#e4e8ed;
+color:#000E2F!important;
+text-decoration:underline;
+transition:.35s
+}
+
+.herobutton {
+min-width:400px;
+margin-top:30px;
+padding-bottom:20px
+}
+
+body .hentry {
+margin:0
+}
+
+#footers {
+margin:0!important
+}
+
+/* Enter Your Custom CSS Here */
+/* media queries */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and below) */
+@media only screen and (max-width: 1170px) {
+/* banner background */
+div#bannerLeftSideID {
+display:block
+}
+
+div#bannerRightSideID {
+display:block
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and below) */
+@media only screen and (min-width: 1200px) {
+/* banner background */
+div#uconn-male-student {
+margin-top:45px
+}
+}
